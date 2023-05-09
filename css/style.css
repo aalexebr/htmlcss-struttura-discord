@@ -58,7 +58,7 @@ header{
 
 .box-header{
     background-color: #EE82EE;
-    height: 150px;
+    height: 100px;
     width: 60%;
 }
 
@@ -70,19 +70,37 @@ section{
     padding: 20px 0 20px 0;
 }
 .box1{
-    height: 175px;
+    height: 100px;
     width: 60%;
     background-color: #1E90FF;
 }
 .box2{
-    height: 175px;
+    height: 100px;
     width: 40%;
     background-color: #FFC0CB;
 }
 .box3{
-    height: 230px;
+    height: 150px;
     background-color: #228B22;
     width: 100%;
 }
 
 /* FOOTER */
+
+footer{
+    background-color: #23272A;
+}
+
+.box-footer1{
+    width: calc(100% / 3);
+    background-color: #F08080;
+    height: 100px;
+}
+.box-footer2{
+    width: calc((100% / 3) * 2);
+    background-color: #1FB1A9;
+}
+.box-footer-rows{
+    width: calc(100% / 4);
+    border: 2px dotted white;
+}
