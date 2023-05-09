@@ -21,24 +21,30 @@
 .logo{
     border: 2px dotted black;
 }
-
+.debug .container{
+    border: 2px dotted rgb(125, 125, 26)
+}
 
 /*  GENERAL  */
 .flex{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container{
     max-width: 1200px;
     width: 75%;
     margin: auto;
+    padding: 20px 0 20px 0;
 }
-
+/*section{
+    padding: 20px 0 20px 0;
+}*/
 /* HEADER */
 header{
     padding-top: 10px;
-    width: 100%;
+    
 }
 .menu{
     height: 50px;
@@ -48,7 +54,6 @@ header{
     width: calc(100% / 4);
     margin-bottom: 10px;
     text-align: center;
-    
     line-height: 30px;
 }
 .menu-column:nth-of-type(2n+2){
@@ -65,11 +70,8 @@ header{
 }
 
 /*  MAIN */
-section:nth-of-type(2n+2){
+main > section:nth-of-type(2n+2){
     background-color: #D3D3D3;
-}
-section{
-    padding: 20px 0 20px 0;
 }
 .box1{
     height: 100px;
@@ -101,14 +103,15 @@ footer{
 .box-footer2{
     width: calc((100% / 3) * 2);
     background-color: #1FB1A9;
+    height: 100px;
 }
 .box-footer-rows{
     width: calc(100% / 4);
     border: 2px dotted white;
+    height: 100%;
 }
 .footer-main{
     padding-top: 5px;
-    margin-bottom: 20px;
 
 }
 hr{
@@ -122,4 +125,7 @@ hr{
 }
 .button, .logo{
     background-color: lightcoral;
+}
+footer:first-of-type{
+    border-bottom: 2px solid white;
 }
