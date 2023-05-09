@@ -15,11 +15,15 @@
     height: 30px;
     border: 2px dotted red;
 }
+.debug .box1{
+    border: 2px dotted black;
+}
 
 
 /*  GENERAL  */
 .flex{
     display: flex;
+    justify-content: center;
 }
 
 .container{
@@ -31,8 +35,10 @@
 /* HEADER */
 header{
     padding-top: 10px;
-    height: 50px;
     width: 100%;
+}
+.menu{
+    height: 50px;
 }
 .menu-column{
     background-color: #D9A523;
@@ -41,14 +47,25 @@ header{
     text-align: center;
     
     line-height: 30px;
-
 }
 .menu-column:nth-of-type(2n+2){
     width: calc(100% / 2);
 }
+.bottom-header{
+    background-color: #00008B;
+    padding: 20px 0 20px 0;
+}
+
+.box-header{
+    background-color: #EE82EE;
+    height: 150px;
+    width: 60%;
+}
 
 /*  MAIN */
-
-main{
-
+section:nth-of-type(2n+2){
+    background-color: #D3D3D3;
+}
+section{
+    padding: 20px 0 20px 0;
 }
