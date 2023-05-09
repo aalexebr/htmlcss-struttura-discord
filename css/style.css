@@ -5,9 +5,7 @@
 }
 
 /* DEBUG */
-.debug .container{
-    border: 1px dotted lightgreen;
-}
+
 .debug header{
     background-color: #ADD8E6;
 }
@@ -15,7 +13,10 @@
     height: 30px;
     border: 2px dotted red;
 }
-.debug .box1{
+.debug .box1,
+.debug .box2,
+.debug .box3,
+.debug .box-header{
     border: 2px dotted black;
 }
 
@@ -28,7 +29,7 @@
 
 .container{
     max-width: 1200px;
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -53,7 +54,6 @@ header{
 }
 .bottom-header{
     background-color: #00008B;
-    padding: 20px 0 20px 0;
 }
 
 .box-header{
@@ -69,3 +69,20 @@ section:nth-of-type(2n+2){
 section{
     padding: 20px 0 20px 0;
 }
+.box1{
+    height: 175px;
+    width: 60%;
+    background-color: #1E90FF;
+}
+.box2{
+    height: 175px;
+    width: 40%;
+    background-color: #FFC0CB;
+}
+.box3{
+    height: 230px;
+    background-color: #228B22;
+    width: 100%;
+}
+
+/* FOOTER */
