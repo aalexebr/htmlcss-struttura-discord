@@ -16,7 +16,9 @@
 .debug .box1,
 .debug .box2,
 .debug .box3,
-.debug .box-header{
+.debug .box-header,
+.button, 
+.logo{
     border: 2px dotted black;
 }
 
@@ -103,4 +105,21 @@ footer{
 .box-footer-rows{
     width: calc(100% / 4);
     border: 2px dotted white;
+}
+.footer-main{
+    padding-top: 5px;
+    margin-bottom: 20px;
+
+}
+hr{
+    color: white;
+}
+.footer-nav{
+    background-color: #7FFFD4;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.button, .logo{
+    background-color: lightcoral;
 }
