@@ -5,8 +5,16 @@
 }
 
 /* DEBUG */
-
-
+.debug .container{
+    border: 1px dotted lightgreen;
+}
+.debug header{
+    background-color: #ADD8E6;
+}
+.debug .menu-column{
+    height: 30px;
+    border: 2px dotted red;
+}
 
 
 /*  GENERAL  */
@@ -20,7 +28,27 @@
     margin: auto;
 }
 
+/* HEADER */
 header{
-    background-color: #ADD8E6;
+    padding-top: 10px;
+    height: 50px;
+    width: 100%;
+}
+.menu-column{
+    background-color: #D9A523;
+    width: calc(100% / 4);
+    margin-bottom: 10px;
+    text-align: center;
     
+    line-height: 30px;
+
+}
+.menu-column:nth-of-type(2n+2){
+    width: calc(100% / 2);
+}
+
+/*  MAIN */
+
+main{
+
 }
