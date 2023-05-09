@@ -127,5 +127,8 @@ hr{
     background-color: lightcoral;
 }
 footer:first-of-type{
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #D3D3D3;
+}
+footer:last-of-type{
+    padding-top: 20px;
 }
